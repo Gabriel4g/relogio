@@ -12,8 +12,8 @@ setInterval(() => {
     Relogio(containerHours, containerMinutes, containerSeconds)
 
     function Relogio(ParamHours, ParamMinutes, ParamSeconds) {
-        ParamHours.innerHTML = `${hours}`;
-        ParamMinutes.innerHTML = `${minutes}`;
+        ParamHours.innerHTML = `${hours} |`;
+        ParamMinutes.innerHTML = `${minutes} |`;
         ParamSeconds.innerHTML = `${seconds}`;
     }
 }, 1000)
